@@ -1,10 +1,24 @@
-// eslint-disable-next-line no-unused-vars
 const Tour = require('../models/tourModel');
 
 // TOURS
 exports.getAlltours = async (req, res) => {
   try {
-    const tours = await Tour.find();
+    // BUILD THE QUERY
+    const queryObj = { ...req.query };
+    const excludeFields = ['page', 'sort', 'limit', 'fields'];
+    excludeFields.forEach((el) => delete queryObj[el]);
+
+    const query = await Tour.find(queryObj);
+
+    // const query = await Tour.find()
+    //   .where('duration')
+    //   .equals(5)
+    //   .where('difficulty')
+    //   .equals('easy');
+
+    // EXECUTE THE QUERY
+    const tours = await query;
+
     res.status(200).json({
       status: 'success',
       results: tours.length,
