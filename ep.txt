@@ -6,6 +6,7 @@
 13. Importing Development Data
 14. Making the API Better Filtering
 15. Making the API Better Advanced Filtering
+16. Making the API Better Sorting
 
 
 
