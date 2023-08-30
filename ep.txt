@@ -8,6 +8,7 @@
 15. Making the API Better Advanced Filtering
 16. Making the API Better Sorting
 17. Making the API Better Limiting Fields
+18. Making the API Better Pagination
 
 
 
