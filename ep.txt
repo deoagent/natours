@@ -9,6 +9,9 @@
 16. Making the API Better Sorting
 17. Making the API Better Limiting Fields
 18. Making the API Better Pagination
+19. Making the API Better Aliasing
+20. Refactoring API Features
+21. Aggregation Pipeline Matching and Grouping
 
 
 
