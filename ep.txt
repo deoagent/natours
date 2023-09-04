@@ -16,4 +16,5 @@
 23. Virtual Properties
 24. Document Middleware
 25. Query Middleware
+26. Aggregation Middleware
 
