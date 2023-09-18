@@ -28,3 +28,4 @@
 4. An Overview of Error Handling
 5. Implementing a Global Error Handling Middleware
 6. Better Errors and Refactoring
+7. Catching Errors in Async Functions
